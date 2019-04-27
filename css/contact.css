@@ -1,0 +1,28 @@
+body{
+	color:#FF7F50;
+	background:#CD6B45;
+}
+ul {
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:20px;
+	text-align:center;
+	padding-left:0px;
+	font-size:1em;
+	font-weight:bold;
+	
+}
+.menu li:hover{
+	background:#CD661D;
+	color:FF7F50;
+	
+}
+.menu li{
+	list-style:none;
+	background:#8B4513;
+	padding:10px;
+}
+.menu a{
+	text-decoration:none; 
+	color:#FF7F50;
+}

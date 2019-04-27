@@ -1,0 +1,39 @@
+.body {
+	background: pink;
+	color: white;
+}
+
+.shiwcase{
+	border:4px white solid;
+	height:90vh;
+	display:grid;
+	grid-template-column: 1fr 1fr;
+	grid-gap:15px;
+}
+
+.gif{
+	background-image=url(../images/coffee.gif);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:90vh;
+}
+
+.main-article{
+	display:grid;
+	grid-gap:1px;
+	height:85vh;
+	border:10px white solid;
+	grid-template-column: 1fr 1fr;
+}
+
+.image{
+	background-image:url(../image/coffee.gif);
+	background-repeat:no-repeat;
+	background-size:cover;	
+	background-position:center;
+	height:85vh;
+}
+.text{
+	background:#EE6A50;
+	color: white;
+}

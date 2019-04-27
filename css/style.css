@@ -1,0 +1,41 @@
+body{
+	color:#1D8348;
+	background:black;
+}
+ul {
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-gap:0px;
+	text-align:center;
+	padding-left:0px;
+	margin:0px;
+	margin-top:15px;
+	font-size:1em;
+	font-weight:bold;
+	BACKGROUND:BLACK;
+	background-size:15px
+	
+}
+.menu li:hover{
+	background:#BFC9CA;
+	color:#82EOAA;
+	
+}
+.menu li{
+	border: 3.5px white solid;
+	list-style:none;
+	background:pink;
+	padding:10px;
+}
+.menu a{
+	text-decoration:none; 
+	color:58D68D;
+}
+.showcase{
+	
+	height:90vh;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;	
+	background-position:center;
+}
